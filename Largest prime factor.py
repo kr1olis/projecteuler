@@ -12,6 +12,7 @@ for i in range(2,sqrtnumber):
         result[j] = 0
 primes = [x for x in result if result[x] != 0]
 primes.reverse()
+answer = 0
 for i in range(len(primes)):
     if number % primes[i] == 0:
         answer = primes[i]
