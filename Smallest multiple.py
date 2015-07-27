@@ -23,8 +23,9 @@ def simple_numbers(num):
         i += 1
     return lst
 
-# find prime number to 20
-number=int(input('write your number ='))
+# find prime number to 20 or whatever you want
+#number=int(input('write your number =')) #you can uncomment this string, and give a chance for user make decision, what number he wants
+number=20
 lcm = simple_numbers(number)
 
 # compute all of multipliers for each number from 2 to 20, write it in lst
