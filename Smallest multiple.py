@@ -36,7 +36,7 @@ for i in range(2,number+1):
             lst.append(y)
             aid=i/y
             if aid == 1:
-                continue
+                break
             else:
                 while aid!=1:
                     for x in lcm:
